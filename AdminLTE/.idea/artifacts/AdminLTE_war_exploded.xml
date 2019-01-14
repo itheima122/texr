@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="AdminLTE:war exploded">
+    <output-path>$PROJECT_DIR$/target/AdminLTE</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="AdminLTE" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/AdminLTE/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="AdminLTE/web/Web" />
+    </root>
+  </artifact>
+</component>
